@@ -1,0 +1,17 @@
+/* pages/colloct/colloct.wxss */
+.row{
+  display: flex;
+  flex-direction:row;
+  height: 250rpx;
+  width: 100%;
+  text-align: center;
+}
+
+text{
+  font-size: 20px;
+  font-family: "微软雅黑";
+  color: #555555;
+  line-height: 250rpx;
+  text-align: center;
+  
+}

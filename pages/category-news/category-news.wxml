@@ -1,0 +1,10 @@
+<view class="item" wx:for="{{dataList}}" wx:key="key" data-index="{{index}}" bindtap="clickItem">
+  <view class="left">
+    <view class="item-title"><text>{{item.title}}</text></view>
+    <view class="item-subtitle"><text>{{item.description}}</text></view>
+    <view class="item-time"><text>{{item.ctime}}</text></view>
+  </view>
+  <view class="right">
+    <image class="item-image" src='{{item.picUrl}}' mode="aspectFill"></image>
+  </view>
+</view>

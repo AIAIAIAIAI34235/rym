@@ -1,0 +1,11 @@
+<!--pages/category/category.wxml-->
+<view class="item"  wx:for="{{dataList}}" wx:key="key" bindlongtap="longTop" bindtap="clickItem" data-index="{{index}}">
+  <view class="left">
+    <view class="item-title"><text>{{item.title}}</text></view>
+    <view class="item-subtitle"><text>{{item.source}}</text></view>
+    <view class="item-time"><text>{{item.date}}</text></view>
+  </view>
+  <view class="right">
+    <image class="item-image" src="{{item.picUrl}}" mode="aspectFill"></image>
+  </view>
+</view>

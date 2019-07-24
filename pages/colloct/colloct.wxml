@@ -1,0 +1,27 @@
+<!--pages/category/category.wxml-->
+<view  class="row">
+<view data-index='0' data-name="综合" catchtap="clickCategory" style="background-color:whitesmoke;height:250rpx;width:50%" ><text>综合新闻</text></view>
+<view data-index='1' data-name="汽车" catchtap="clickCategory" style="background-color:gainsboro;height:250rpx;width:50%" ><text>汽车新闻</text></view>
+</view>
+
+<view class="row">
+<view data-index='2' data-name="国内" catchtap="clickCategory" style="background-color:gainsboro;height:250rpx;width:50%"><text>国内新闻</text></view>
+<view data-index='3' data-name="动漫" catchtap="clickCategory" style="background-color:whitesmoke;height:250rpx;width:50%"><text>动漫新闻</text></view>
+</view>
+
+<view class="row">
+<view data-index='4' data-name="财经" catchtap="clickCategory" style="background-color:whitesmoke;height:250rpx;width:50%"><text>财经新闻</text></view>
+<view data-index='5' data-name="汽车" catchtap="clickCategory" style="background-color:gainsboro;height:250rpx;width:50%"><text>汽车新闻</text></view>
+</view>
+
+<view class="row">
+<view data-index='6' data-name="游戏" catchtap="clickCategory" style="background-color:gainsboro;height:250rpx;width:50%"><text>游戏新闻</text></view>
+<view data-index='7' data-name="CBA" catchtap="clickCategory" style="background-color:whitesmoke;height:250rpx;width:50%"><text>CBA新闻</text></view>
+</view>
+
+<view class="row">
+<view data-index='8' data-name="国际" catchtap="clickCategory" style="background-color:whitesmoke;height:250rpx;width:50%"><text>国际新闻</text></view>
+<view data-index='9' data-name="人工" catchtap="clickCategory" style="background-color:gainsboro;height:250rpx;width:50%"><text>人工新闻</text></view>
+</view>
+
+

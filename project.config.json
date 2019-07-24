@@ -1,0 +1,125 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.7",
+	"appid": "wxa1ab4b1ca735e372",
+	"projectname": "News",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 9,
+			"list": [
+				{
+					"id": -1,
+					"name": "text",
+					"pathName": "text/text",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "catagory_news",
+					"pathName": "pages/catagory_news/catagory_news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/catagory_news/catagory_news",
+					"pathName": "pages/catagory_news/catagory_news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/category_news",
+					"pathName": "pages/category_news/category_news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detail",
+					"pathName": "pages/detail/detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "catagory_news",
+					"pathName": "pages/catagory_news/catagory_news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Catagory_news",
+					"pathName": "pages/catagory_news/catagory_news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "catagory-news",
+					"pathName": "pages/category-news/category-news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "category",
+					"pathName": "pages/category/category",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "colloct",
+					"pathName": "pages/colloct/colloct",
+					"scene": null
+				}
+			]
+		}
+	}
+}

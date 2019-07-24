@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/colloct/colloct",
+    "pages/category/category",
+    "request/request",
+    "text/text",
+    "pages/detail/detail",
+    "pages/category-news/category-news",
+    "pages/colloct_detail/colloct_detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "新闻",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "精选",
+        "iconPath": "./images/zengchangshuai1.png",
+        "selectedIconPath": "./images/zengchangshuai.png"
+      },
+      {
+        "pagePath": "pages/colloct/colloct",
+        "text": "分类",
+        "iconPath": "./images/ViewGallery1.png",
+        "selectedIconPath": "./images/ViewGallery.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "收藏",
+        "iconPath": "./images/jianyi1.png",
+        "selectedIconPath": "./images/jianyi.png"
+      }
+    ],
+    "selectedColor": "#000000",
+    "color": "#a1a1a1"
+  }
+}

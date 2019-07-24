@@ -1,0 +1,2 @@
+<!--pages/colloct_detail/colloct_detail.wxml-->
+<web-view src="{{url}}"></web-view>
